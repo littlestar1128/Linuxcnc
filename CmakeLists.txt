@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.10)
+project(G96_Project)
+
+set(CMAKE_C_STANDARD 11)
+
+# 1. 包含子目录 src
+add_subdirectory(src)
+
+# 2. 编译测试程序
+add_executable(g96_test src/main.c)
+
+# 3. 链接 src 目录中定义的 g96_lib 库
+target_link_libraries(g96_test g96_lib)
+
+# 4. 包含头文件路径以供 main.c 使用
+target_include_directories(g96_test PRIVATE include)

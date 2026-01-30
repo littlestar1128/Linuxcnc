@@ -1,0 +1,3 @@
+C:\Users\liuxin\cmake\cmake-3.28.3-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\g96_test.dir/objects.a
+C:\Users\liuxin\mingw64\bin\ar.exe qc CMakeFiles\g96_test.dir/objects.a @CMakeFiles\g96_test.dir\objects1.rsp
+C:\Users\liuxin\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\g96_test.dir/objects.a -Wl,--no-whole-archive -o g96_test.exe -Wl,--out-implib,libg96_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\g96_test.dir\linkLibs.rsp

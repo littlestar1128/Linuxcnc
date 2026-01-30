@@ -1,0 +1,15 @@
+# 1. 将源文件添加到变量中
+set(G96_SOURCES
+    g96.c
+)
+
+# 2. 如果你想将 G96 编译成一个独立的静态库供 main.c 使用
+add_library(g96_lib STATIC ${G96_SOURCES})
+
+# 3. 指定该库需要的头文件路径（指向上级 include 目录）
+target_include_directories(g96_lib PUBLIC 
+    ${CMAKE_CURRENT_SOURCE_DIR}/../include
+)
+
+# 4. 链接数学库
+target_link_libraries(g96_lib m)

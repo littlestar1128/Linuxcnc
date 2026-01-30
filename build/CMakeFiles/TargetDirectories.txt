@@ -1,0 +1,6 @@
+C:/Users/liuxin/xuexi/g96/build/CMakeFiles/g96_test.dir
+C:/Users/liuxin/xuexi/g96/build/CMakeFiles/edit_cache.dir
+C:/Users/liuxin/xuexi/g96/build/CMakeFiles/rebuild_cache.dir
+C:/Users/liuxin/xuexi/g96/build/src/CMakeFiles/g96_lib.dir
+C:/Users/liuxin/xuexi/g96/build/src/CMakeFiles/edit_cache.dir
+C:/Users/liuxin/xuexi/g96/build/src/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,52 @@
+{
+    // ========== CMake配置 ==========
+    "cmake.cmakePath": "C:/Users/liuxin/cmake/cmake-3.28.3-windows-x86_64/bin/cmake.exe",
+    "cmake.configureOnOpen": false,
+    "cmake.generator": "MinGW Makefiles",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.preferredGenerators": ["MinGW Makefiles"],
+    
+    // ========== 编译器配置 ==========
+    "cmake.configureSettings": {
+        "CMAKE_C_COMPILER": "C:/Users/liuxin/mingw64/bin/gcc.exe",
+        "CMAKE_CXX_COMPILER": "C:/Users/liuxin/mingw64/bin/g++.exe",
+        "CMAKE_MAKE_PROGRAM": "C:/Users/liuxin/mingw64/bin/mingw32-make.exe"
+    },
+    
+    // ========== 环境变量 ==========
+    "terminal.integrated.env.windows": {
+        "PATH": "C:\\Users\\liuxin\\cmake\\cmake-3.28.3-windows-x86_64\\bin;C:\\Users\\liuxin\\mingw64\\bin;${env:PATH}"
+    },
+    
+    // ========== 可选：强制使用特定配置 ==========
+    "cmake.configureArgs": [
+        "-G", "MinGW Makefiles",
+        "-DCMAKE_C_COMPILER=C:/Users/liuxin/mingw64/bin/gcc.exe",
+        "-DCMAKE_CXX_COMPILER=C:/Users/liuxin/mingw64/bin/g++.exe",
+        "-DCMAKE_MAKE_PROGRAM=C:/Users/liuxin/mingw64/bin/mingw32-make.exe"
+    ],
+    
+    // ========== C/C++扩展配置 ==========
+    "C_Cpp.default.compilerPath": "C:/Users/liuxin/mingw64/bin/gcc.exe",
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "C_Cpp.default.cStandard": "c11",
+    "C_Cpp.default.cppStandard": "c++11",
+
+     // 终端编码设置
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "args": [
+                "-NoExit",
+                "-Command", "chcp 65001"
+            ]
+        }
+    },
+    "terminal.integrated.inheritEnv": true,
+    
+    // 文件编码
+    "files.encoding": "utf8",
+    "files.autoGuessEncoding": true
+}

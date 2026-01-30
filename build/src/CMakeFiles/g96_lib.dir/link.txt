@@ -1,0 +1,2 @@
+C:\Users\liuxin\mingw64\bin\ar.exe qc libg96_lib.a CMakeFiles/g96_lib.dir/g96.c.obj
+C:\Users\liuxin\mingw64\bin\ranlib.exe libg96_lib.a

@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/liuxin/xuexi/g96/build",
+  "command": "C:\\Users\\liuxin\\mingw64\\bin\\gcc.exe  @CMakeFiles/g96_test.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\g96_test.dir\\src\\main.c.obj -c C:\\Users\\liuxin\\xuexi\\g96\\src\\main.c",
+  "file": "C:/Users/liuxin/xuexi/g96/src/main.c",
+  "output": "CMakeFiles/g96_test.dir/src/main.c.obj"
+},
+{
+  "directory": "C:/Users/liuxin/xuexi/g96/build/src",
+  "command": "C:\\Users\\liuxin\\mingw64\\bin\\gcc.exe  @CMakeFiles/g96_lib.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\g96_lib.dir\\g96.c.obj -c C:\\Users\\liuxin\\xuexi\\g96\\src\\g96.c",
+  "file": "C:/Users/liuxin/xuexi/g96/src/g96.c",
+  "output": "src/CMakeFiles/g96_lib.dir/g96.c.obj"
+}
+]
